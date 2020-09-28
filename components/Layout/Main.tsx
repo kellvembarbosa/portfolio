@@ -31,6 +31,8 @@ export default function Main({ children, title:string }) {
                     <Freelancer />
                     <Divider borderColor="gray.500" ml={50} mr={50} w={{md: "auto", sm: 0, xs: 0}} opacity={0.2}/>
                     <Menu />
+                    <Divider borderColor="gray.500" ml={50} mr={50} w={{md: "auto", sm: 0, xs: 0}} opacity={0.2}/>
+                    <Footer />
 
                 </Flex>
                 <Flex
