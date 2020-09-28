@@ -12,7 +12,7 @@ export default function Main({ children, title }) {
     return (
         <>
             <Head>
-                <title>{title}</title>
+                <title>{(title.indexOf(SLOGAN_SITE) !== -1) ? title : `${title} - ${SLOGAN_SITE}`}</title>
             </Head>
             <Flex
                 pt={{ md: 6, sm: 0, xs: 0 }}
