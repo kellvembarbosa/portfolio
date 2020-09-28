@@ -1,5 +1,5 @@
 export const SITE_NAME      = "Kellvem Barbosa"
 export const SKILL_NAME     = "Full Stack"
 export const SLOGAN_SITE    = "Full Stack Developer | Porto e Lisboa"
-export const URL_SITE       = "https://www.spinui.com"
+export const URL_SITE       = "https://kellvem.pt"
 export const BIO            = "Programador a 11 Anos trabalho com Node JS, React e Laravel, vasta experiência em Back-end e Front-end, trabalho com desenvolvimento de sistemas, sites e sistemas em React JS (TypeScript) framework mundialmente conhecido e confiável."
