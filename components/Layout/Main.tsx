@@ -5,13 +5,14 @@ import Menu from './Menu'
 import Head from 'next/head'
 import { SITE_NAME, SLOGAN_SITE } from '../../constants/configs'
 import Freelancer from './Freelancer'
+import { title } from 'process'
 
-export default function Main({ children, title }) {
+export default function Main({ children, title:string }) {
 
     return (
         <>
             <Head>
-                <title>{(title) ? `${title} - ${SLOGAN_SITE}` : `${SITE_NAME} - ${SLOGAN_SITE}`}</title>
+                <title>{title}</title>
             </Head>
             <Flex pt={{md: 6, sm: 0, xs:0}} pr={{md: 6, sm: 0, xs:0}} pl={{md: 6, sm: 0, xs:0}} pb={{md: 6, sm: 0, xs:0}} display={{ md: "flex" }} bg="green.500" h="100vh" 
                     minHeight={620} >

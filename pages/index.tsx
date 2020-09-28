@@ -1,12 +1,12 @@
 import React from 'react'
 import Main from '../components/Layout/Main'
 import { Box, Flex, Text, SimpleGrid , Image } from "@chakra-ui/core";
-import { BIO, URL_SITE } from '../constants/configs';
+import { BIO, SITE_NAME, SLOGAN_SITE, URL_SITE } from '../constants/configs';
 import GridHome from '../components/GridHome';
 
 export default function Home() {
   return (
-    <Main>
+    <Main title={`${SITE_NAME} - ${SLOGAN_SITE}`}>
         <Flex flexDirection="column" justifyContent="center" alignItems="center" h="100%">
           <Text fontSize="4xl">Minha BIO</Text>
           <Text fontSize="sm" textAlign="center" display="flex">{BIO}</Text>
