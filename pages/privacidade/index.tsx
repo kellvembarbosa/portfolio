@@ -6,7 +6,7 @@ export default function index() {
 
     return (
         <Main title="EULA">
-            <Text fontSize="2xl" pl={4}>Terms of conditions</Text>
+            <Text fontSize="2xl" pl={4}>Privacidade</Text>
             <Box p={4}>
 
                 <p><strong>Kellvem</strong> <strong>Barbosa</strong> built the <strong>Vibrator:Massager Relax</strong> and <strong>Bíblia Evangélica Grátis</strong> app as a Freemium app. This SERVICE is provided by Kellvem Barbosa at no cost and is intended for use as is.</p>

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <Box textAlign="center">
+        <Box textAlign="center" display={{md: "block", sm:"none", xs:"none"}}>
             2009 ~ 2020
         </Box>
     )

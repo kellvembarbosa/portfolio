@@ -38,7 +38,7 @@ export default function Main({ children, title }) {
                     <Freelancer />
                     <Divider borderColor="gray.500" ml={50} mr={50} w={{ md: "auto", sm: 0, xs: 0 }} opacity={0.2} />
                     <Menu />
-                    <Divider borderColor="gray.500" ml={50} mr={50} w={{ md: "auto", sm: 0, xs: 0 }} opacity={0.2} />
+                    <Divider borderColor="gray.500" ml={50} mr={50} w={{ md: "auto", sm: 0, xs: 0 }} opacity={0.2}  display={{md: "block", sm:"none", xs:"none"}} />
                     <Footer />
 
                 </Flex>
