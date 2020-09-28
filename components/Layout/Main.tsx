@@ -7,7 +7,7 @@ import { SITE_NAME, SLOGAN_SITE } from '../../constants/configs'
 import Freelancer from './Freelancer'
 import { title } from 'process'
 
-export default function Main({ children, title: string }) {
+export default function Main({ children, title }) {
 
     return (
         <>
