@@ -5,7 +5,7 @@ import { Box, Text } from "@chakra-ui/core";
 export default function index() {
 
     return (
-        <Main title="EULA">
+        <Main title="Privacidade">
             <Text fontSize="2xl" pl={4}>Privacidade</Text>
             <Box p={4}>
 

@@ -1,11 +1,13 @@
 import { Box, Divider, Flex, Grid, Link } from '@chakra-ui/core'
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import Head from 'next/head'
 import { SITE_NAME, SLOGAN_SITE } from '../../constants/configs'
 import Freelancer from './Freelancer'
 import { title } from 'process'
+import { Router } from "next/router";
+import { Console } from 'console'
 
 export default function Main({ children, title }) {
 
